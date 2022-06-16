@@ -305,7 +305,11 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.sitetitle {
-    font-family: Righteous;
+    font-family: TiroDevanagariSanskrit-Regular;
+    src: url(/assets/fonts/TiroDevanagariSanskrit-Regular.ttf);
+    color: #E40001;
+    font-size: 450%;
+    /*font-family: Righteous;*/
 }
 
 .mainheading h1.posttitle {
