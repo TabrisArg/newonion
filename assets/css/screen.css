@@ -1,8 +1,8 @@
-/* 
-Template Name: Mediumish 
-Copyright: Sal, WowThemes.net, https://www.wowthemes.net 
-License: https://www.wowthemes.net/freebies-license/ 
-*/
+:root {
+    --primcolor: #E40001;
+    --seccolor: #b30000;
+}
+
 @media screen and (min-width:1500px) {
     html { font-size:18px; } /* Increase the font size on higher resolutions */
     .container {max-width:80%;}
@@ -12,12 +12,12 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 a {
-    color: #00ab6b;
+    color: var(--primcolor);
     transition: all 0.2s;
 }
 
 a:hover {
-    color: #038252;
+    color: var(--seccolor);
     text-decoration: none;
 }
 
@@ -307,7 +307,7 @@ span.post-read-more a:hover {
 .mainheading h1.sitetitle {
     font-family: TiroDevanagariSanskrit-Regular;
     src: url(/assets/fonts/TiroDevanagariSanskrit-Regular.ttf);
-    color: #E40001;
+    color: var(--primcolor);
     font-size: 450%;
     /*font-family: Righteous;*/
 }
@@ -585,15 +585,17 @@ ul.tags li a:hover {
 }
 
 .alertbar input[type="submit"] {
-    background-color: #1C9963;
-    border: 1px solid #1C9963;
+    background-color: var(--primcolor);
+    border: 1px solid var(--primcolor);
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     font-size: 0.85rem;
-    border-radius: 0;
+    border-radius: 3px;
     padding: 4px 10px;
+    /*
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
+    */
     font-weight: 600;
     height: 34px;
     letter-spacing: 0.5px;

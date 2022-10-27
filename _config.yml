@@ -1,17 +1,20 @@
 # Site
 name: "El Veraz"
 title: "El Veraz"
-description: "True news para gente seria"
+description: "\"Noticias\" \"Geek\" para \"todo el mundo\""
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 hostedurl: 'https://elveraz.com.ar/'
 #baseurl: 'https://tabrisarg.github.io/newonion/'
 baseurl: ''
 google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+disqus: 'ElVeraz'
+mailchimp-list: 'http://eepurl.com/h4JRZX'
 include: ["_pages"]
 permalink: /:title/
+
+primcolor: "#E40001"
+seccolor: "#b30000"
 
 # Authors
 authors:
